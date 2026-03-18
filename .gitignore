@@ -1,0 +1,25 @@
+# Compiled Executables and Build Artifacts
+build/*
+!build/.gitkeep
+*.exe
+*.out
+*.app
+*.o
+*.obj
+
+# Logs and terminal outputs
+*.log
+logs/
+
+# Python caches (from the Cognitive UI)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor folders
+.vscode/
+.idea/
